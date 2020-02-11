@@ -1,0 +1,38 @@
+{
+  "name": "typescript-fastify-starter",
+  "version": "1.0.0",
+  "description": "Quick and Easy TypeScript Fastify Starter",
+  "author": "AGUMON <ljlm0402@gmail.com>",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "dev": "nodemon --watch './src/**/*.ts' --exec ts-node ./src/index.ts",
+    "build": "tsc",
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "fastify": "^2.8.0",
+    "pino-pretty": "3.5.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.2",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljlm0402/typescript-fastify-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ljlm0402/typescript-fastify-starter/issues"
+  },
+  "homepage": "https://github.com/ljlm0402/typescript-fastify-starter#readme"
+}
