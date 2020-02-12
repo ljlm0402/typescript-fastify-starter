@@ -1,0 +1,10 @@
+{
+  "name": "typescript-fastify-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "ts-node --transpile-only ./src/server.ts",
+    "dev": "nodemon --watch './src/**/*.ts' --exec ts-node ./src/server.ts",
+    "build": "tsc",
+    "test": "jest --watchAll"
+  }
+}

@@ -1,4 +1,4 @@
-import createServer from '../src/server';
+import createServer from '../src/app';
 
 describe('[TEST] index', () => {
   const server = createServer();

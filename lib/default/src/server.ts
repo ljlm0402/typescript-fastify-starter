@@ -1,6 +1,6 @@
-import createServer from './server';
+import createServer from './app';
 
-const PORT = process.env.PORT || '3000';
+const PORT = process.env.PORT || 3000;
 const server = createServer();
 
 server.listen(+PORT, "0.0.0.0", (err, host) => {
