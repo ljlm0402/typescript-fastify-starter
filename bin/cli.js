@@ -6,7 +6,7 @@
  *****************************************************************/
 
 const path = require('path');
-const tsFastifyStarter = require('../lib/typescript-fastify-starter');
+const starter = require('../lib/starter');
 const destination = getDest(process.argv[2]);
 
 function getDest(destFolder) {
@@ -14,4 +14,4 @@ function getDest(destFolder) {
   return path.join(process.cwd(), destFolder);
 };
 
-tsFastifyStarter(destination);
+starter(destination);
