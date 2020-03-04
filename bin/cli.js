@@ -2,7 +2,8 @@
 
 /*****************************************************************
  * Create new typescript-fastify-starter project.
- * created by Lim Kyungmin, 02/12/2020
+ * By AGUMON <ljlm0402@gmail.com>
+ * February 12, 2020.
  *****************************************************************/
 
 const path = require('path');

@@ -8,29 +8,33 @@
 
 <br />
 
-## 🧐 What is it?
+## 🤔 What is Fastify ?
 
-Creates a new typescript fastify application.
+Create TypeScript Fastify Project.
+
 application is configured to use TypeScript instead of plain JavaScript. 
 
-## 🤔 Why typescript-fastify-starter?
+## 🧐 What is The package ?
 
-Node Js is great for the rapid development of web-projects, but is often neglected because of the lack of
-type safety. TypeScript solves this issue and (along with its linter file) can even make your code
-more robust than some other static languages like Java.
+Fastify, Fast and low overhead web framework, for Node.js.
 
-## ⚙️ Installation
+But it consists of JavaScript, which makes it vulnerable to type definitions. That's why we avoid supersets with starter packages that introduce TypeScript.
+
+## 🚀 Quick Start
+
+### Install with the npm global package
 
 ```sh
 $ npm install -g typescript-fastify-starter
 ```
 
-## 🚀 Quick Start
+### Run npx to install the package
 
-The quickest way to get started is use npx and pass in the name of the project you want to create.
-If you don't specify a project name, the default _typescript-fastify-starter_ will be used instead.
+npx is a tool in the JavaScript package management module, npm.
 
-### 1. Create the app
+This is a tool that allows you to run the npm package on a single run without installing the package.
+
+If you do not enter a project name, it defaults to _typescript-fasrify-starter_.
 
 ```bash
 $ npx typescript-fastify-starter "project name"

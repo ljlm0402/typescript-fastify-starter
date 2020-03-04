@@ -1,14 +1,14 @@
 {
   "name": "typescript-fastify-starter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quick and Easy TypeScript Fastify Starter",
   "author": "AGUMON <ljlm0402@gmail.com>",
   "license": "MIT",
   "main": "bin/cli.js",
   "keywords": [
+    "typescript",
     "fastify",
-    "jest",
-    "typescript"
+    "jest"
   ],
   "bin": {
     "typescript-fastify-starter": "bin/cli.js"
